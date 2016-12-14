@@ -11,7 +11,7 @@ export default class App extends Component {
        <li><Link to='/'>home</Link></li>
        <li><Link to='/work'>work</Link></li>
      </ul>
-{this.props.children}
+        {this.props.children}
       </div>
     )
   }
